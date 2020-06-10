@@ -1,10 +1,16 @@
+import Link from "next/link";
+
 const Navbar = () => {
 	return (
 		<div className="row justify-content-center border-bottom py-2">
 			<div className="col-lg-10 col-12">
 				<div className="row justify-content-between align-items-center">
 					<div className="col-lg-auto col-12 py-1 text-center">
-						<h1 className="h4">Himaster 2020</h1>
+						<h1 className="h4">
+							<Link href="/">
+								<a>Himaster 2020</a>
+							</Link>
+						</h1>
 					</div>
 					<div className="col-lg-6 col-12 py-1">
 						<form action="/" method="get">
@@ -15,7 +21,7 @@ const Navbar = () => {
 							/>
 						</form>
 					</div>
-					<div className="col-lg-auto col-12 py-1 align-self-center font-weight-bold  text-center">
+					<div className="col-lg-auto col-12 py-1 align-self-center font-weight-bold text-center">
 						<ul className="list-inline my-0">
 							<li className="list-inline-item">Profil</li>
 							<li className="list-inline-item pl-3">Galeri</li>
@@ -26,6 +32,12 @@ const Navbar = () => {
 					</div>
 				</div>
 			</div>
+			<style jsx>{`
+				a {
+					color: black;
+					text-decoration: none;
+				}
+			`}</style>
 		</div>
 	);
 };
