@@ -1,0 +1,57 @@
+#sambutan {
+	background-image: url("/assets/img/himaster/_FULL/_FULL HIMASTER.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#galeri {
+	background-image: url("/assets/img/galeri.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.bgimg {
+	background-position: center;
+	background-size: cover;
+}
+
+.colorLine {
+	height: 8px;
+	background: rgb(0, 108, 255);
+	background: linear-gradient(
+		90deg,
+		rgba(0, 108, 255, 1) 0%,
+		rgba(255, 102, 0, 1) 100%
+	);
+}
+* {
+	box-sizing: border-box;
+	font-family: "Gilroy", sans-serif;
+}
+@font-face {
+	font-family: "Gilroy";
+	src: url("/fonts/font-regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Gilroy";
+	src: url("/fonts/font-bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+html,
+body,
+body > div:first-child,
+div#_next,
+div#_next > div,
+div#_next > div > div {
+	min-height: 100%;
+}
