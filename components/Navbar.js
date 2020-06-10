@@ -4,7 +4,7 @@ const Navbar = () => {
 			<div className="col-lg-10 col-12">
 				<div className="row justify-content-between align-items-center">
 					<div className="col-lg-auto col-12 py-1 text-center">
-						<h3>Himaster 2020</h3>
+						<h1 className="h4">Himaster 2020</h1>
 					</div>
 					<div className="col-lg-6 col-12 py-1">
 						<form action="/" method="get">
