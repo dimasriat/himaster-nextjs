@@ -1,67 +1,31 @@
-import { useRef, useEffect, useState } from "react";
-
-import NavLogo from "./Navbar/NavLogo";
-import NavSearch from "./Navbar/NavSearch";
-import NavSidebar from "./Navbar/NavSidebar";
-import NavControl from "./Navbar/NavControl";
-import NavMenu from "./Navbar/NavMenu";
-
-const Navbar = (props) => {
-	const Color = props.Color;
-	const [openSidebar, setOpenSidebar] = useState(false);
+const Navbar = () => {
 	return (
-		<div>
-			<div className="navbar">
-				<div className="navbar-container">
-					<NavLogo Color={Color} title={props.title} />
-					<NavControl
-						Color={props.Color}
-						light={props.light}
-						setLight={props.setLight}
-						setOpenSidebar={setOpenSidebar}
-						openSidebar={openSidebar}
-						menu={props.menu}
-					/>
+		<div className="row justify-content-center border-bottom py-2">
+			<div className="col-lg-10 col-12">
+				<div className="row justify-content-between">
+					<div className="col-lg-auto col-12 py-1 text-center">
+						<h3>HIMASTER 2020</h3>
+					</div>
+					<div className="col-lg-6 col-12 py-1">
+						<form action="/" method="get">
+							<input
+								type="text"
+								className="form-control w-100"
+								placeholder="search"
+							/>
+						</form>
+					</div>
+					<div className="col-lg-auto col-12 py-1 align-self-center font-weight-bold  text-center">
+						<ul className="list-inline my-0">
+							<li className="list-inline-item">Profil</li>
+							<li className="list-inline-item pl-3">Galeri</li>
+							<li className="list-inline-item pl-3">Event</li>
+							<li className="list-inline-item pl-3">Team</li>
+							<li className="list-inline-item pl-3">Contact</li>
+						</ul>
+					</div>
 				</div>
-				<NavSidebar
-					Color={props.Color}
-					menu={props.menu}
-					openSidebar={openSidebar}
-					active={props.active}
-				/>
 			</div>
-			<style jsx>{`
-				.navbar {
-					border-bottom: 1px solid ${Color.secondary};
-					background-color: ${Color.bg};
-					color: ${Color.font};
-					position: fixed;
-					top: 0;
-					width: 100%;
-					z-index: 100;
-				}
-
-				.navbar-container {
-					display: flex;
-					flex-direction: row;
-					justify-content: space-between;
-					align-items: center;
-					background-color: ${Color.bg};
-					padding: 1rem 0;
-				}
-
-				@media only screen and (min-width: 48rem) {
-					.navbar-container {
-						padding: 1rem 8rem;
-					}
-				}
-
-				// @media only screen and (min-width: 48rem) {
-				// 	.navbar-container {
-				// 		padding: 0;
-				// 	}
-				// }
-			`}</style>
 		</div>
 	);
 };
