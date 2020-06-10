@@ -71,7 +71,8 @@ const index = () => {
 			<Container>
 				<div class="row flex-wrap justify-content-center align-items-center py-3">
 					<Bidang nama="KETUA DAN WAKIL" col="6" svg="ketua" />
-					<Bidang nama="KEBENDAHARAAN" col="4" svg="bendahara" />
+					<div className="w-100" />
+					<Bidang nama="KEBENDAHARAAN" col="4" svg="kebendaharaan" />
 					<Bidang
 						nama="PENGEMBANGAN TEKNOLOGI"
 						col="4"
