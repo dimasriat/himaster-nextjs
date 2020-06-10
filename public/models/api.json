@@ -1,0 +1,423 @@
+{
+	"title": "HIMASTER ALPHA",
+	"visi": "Membangun Program Studi S1 Informatika UNS sebagai yang terkemuka dan terdepan secara nasional dalam penyelenggaraan organisasi, penelitian, pengembangan sumber daya mahasiswa dan pengabdian pada masyarakat dalam bidang sistem dan teknologi informasi",
+	"misi": [
+		"Mendukung mahasiswa S1 Informatika untuk dapat mengembangkan diri secara akademis dan non-akademis mahasiswa/i Program Studi S1 Informatika",
+		"mengajak membangun sinergi, relasi, kilaborasi, serta berkontribusi baik kepada internal maupun eksternal HIMASTER",
+		"memberikan wadah untuk bersosialisasi, berkomunikasi, dan beraspirasi di lingkungan S1 Informatika",
+		"Membangun pemikiran mahasiswa S1 Informatika untuk terus berinovasi dan berprestasi dalam kancah nasional hingga internasional",
+		"Merangkul seluruh civitas demi S1 Informatika yang terdepan, terkemuka, dan berkualitas"
+	],
+	"team": [
+		{
+			"id": "ketua",
+			"name": "Ketua & Wakil Ketua",
+			"foto": "_PERBIDANG/_KAHIMA WAKAHIMA.jpg",
+			"anggota": [
+				{
+					"nama": "Ghulam Zaidan Kamil",
+					"jabatan": "Ketua Himpunan",
+					"foto": "0_KAHIMA WAKAHIMA/0_Ketua Himpunan_Ghulam Zaidan Kamil.jpg"
+				},
+				{
+					"nama": "Kevin Ismail",
+					"jabatan": "Wakil Ketua Himpunan",
+					"foto": "0_KAHIMA WAKAHIMA/0_Wakil Ketua Himpunan_Kevin Ismail .jpg"
+				}
+			]
+		},
+		{
+			"id": "kesekretariatan",
+			"name": "Kesekretariatan",
+			"foto": "_PERBIDANG/_KESEKRETARIATAN.jpg",
+			"anggota": [
+				{
+					"nama": "Rizka Anggie Pratiwi",
+					"jabatan": "Ketua Bidang",
+					"foto": "1_KESEKRETARIATAN/1_Kesekretariatan_Rizka Anggie Pratiwi.jpg"
+				},
+				{
+					"nama": "Sausan Kamiilah Zarlan",
+					"jabatan": "Staff",
+					"foto": "1_KESEKRETARIATAN/1_Kesekretariatan_Sausan Kamilah.jpg"
+				},
+				{
+					"nama": "Yasmin Mufidah",
+					"jabatan": "Staff",
+					"foto": "1_KESEKRETARIATAN/1_Kesekretariatan_Yasmin Mufidah.jpg"
+				}
+			]
+		},
+		{
+			"id": "kebendaharaan",
+			"name": "Kebendaharaan",
+			"foto": "_PERBIDANG/_KEBENDAHARAAN.jpg",
+			"anggota": [
+				{
+					"nama": "Virdha Berliana Rizqita",
+					"jabatan": "Ketua Bidang",
+					"foto": "2_KEBENDAHARAAN/2_Kebendaharaan_Virdha Berliana.jpg"
+				},
+				{
+					"nama": "Ayu Setyo Damayanti",
+					"jabatan": "Staff",
+					"foto": "2_KEBENDAHARAAN/2_Kebendaharaan_Ayu Setyo Damayanti.jpg"
+				},
+				{
+					"nama": "Sindy Nur Safaati",
+					"jabatan": "Staff",
+					"foto": "2_KEBENDAHARAAN/2_Kebendaharaan_Sindy Nur Safaati.jpg"
+				}
+			]
+		},
+		{
+			"id": "pemtek",
+			"name": "Pengembangan Teknologi",
+			"foto": "_PERBIDANG/_PEMTEK.jpg",
+			"anggota": [
+				{
+					"nama": "Popy Riliandini",
+					"jabatan": "Ketua Bidang",
+					"foto": "4_PEMTEK/4_Pemtek_Popy Riliandini.jpg"
+				},
+				{
+					"nama": "Satrio Akbar Sudigdo",
+					"jabatan": "Wakil Ketua Bidang",
+					"foto": "4_PEMTEK/4_Pemtek_Satrio Akbar.jpg"
+				},
+				{
+					"nama": "Dimas Riatmodjo",
+					"jabatan": "Staff",
+					"foto": "4_PEMTEK/4_Pemtek_Dimas.jpg"
+				},
+				{
+					"nama": "Alivia Khofifah",
+					"jabatan": "Staff",
+					"foto": "4_PEMTEK/4_Pemtek_Alivia Khofifah.jpg"
+				},
+				{
+					"nama": "Siraj Shalahuddin",
+					"jabatan": "Staff",
+					"foto": "4_PEMTEK/4_Pemtek_Siraj.jpg"
+				},
+				{
+					"nama": "Naomi Halimun Pintari",
+					"jabatan": "Staff",
+					"foto": "4_PEMTEK/4_Pemtek_Naomi Halimun.jpg"
+				},
+				{
+					"nama": "Muhammad Aufaditya Adinata",
+					"jabatan": "Staff",
+					"foto": "4_PEMTEK/4_Pemtek_Aufaditya.jpg"
+				},
+				{
+					"nama": "Muhammad Dwi Arfian",
+					"jabatan": "Staff",
+					"foto": "4_PEMTEK/4_Pemtek_Dwi Arfian.jpg"
+				},
+				{
+					"nama": "Afif Amruzain",
+					"jabatan": "Staff",
+					"foto": "4_PEMTEK/4_Pemtek_Afif Amruzain.jpg"
+				}
+			]
+		},
+		{
+			"id": "medif",
+			"name": "Media dan Informasi",
+			"foto": "_PERBIDANG/_MEDIF.jpg",
+			"anggota": [
+				{
+					"nama": "Muhammad Wildan Athar",
+					"jabatan": "Ketua Bidang",
+					"foto": "5_MEDIF/5_Medif_M Wildan Athar.jpg"
+				},
+				{
+					"nama": "Khalifah Imam Ali",
+					"jabatan": "Wakil Ketua Bidang",
+					"foto": "5_MEDIF/5_Medif_Khalifah Imam Ali.jpg"
+				},
+				{
+					"nama": "Akhtar Bariq Rachman",
+					"jabatan": "Staff",
+					"foto": "5_MEDIF/5_Medif_Akhtar Bariq.jpg"
+				},
+				{
+					"nama": "Alyaa Salsabel Ghoitsa",
+					"jabatan": "Staff",
+					"foto": "5_MEDIF/5_Medif_Alyaa Salsabel.jpg"
+				},
+				{
+					"nama": "Amandha Affa Auliya",
+					"jabatan": "Staff",
+					"foto": "5_MEDIF/5_Medif_Amanda.jpg"
+				},
+				{
+					"nama": "Gestina Ratna Pratiwi",
+					"jabatan": "Staff",
+					"foto": "5_MEDIF/5_Medif_Gestina.jpg"
+				},
+				{
+					"nama": "Mohammad Talha",
+					"jabatan": "Staff",
+					"foto": "5_MEDIF/5_Medif_Mohammad Talha.jpg"
+				},
+				{
+					"nama": "Wimas Tri Harjoko",
+					"jabatan": "Staff",
+					"foto": "5_MEDIF/5_Medif_Wimas Triharjoko.jpg"
+				},
+				{
+					"nama": "Zulfa Fikri Azizah",
+					"jabatan": "Staff",
+					"foto": "5_MEDIF/5_Medif_Zulfa Fikri.jpg"
+				}
+			]
+		},
+		{
+			"id": "psdm",
+			"name": "Pengembangan Sumber Daya Manusia",
+			"foto": "_PERBIDANG/_PSDM.jpg",
+			"anggota": [
+				{
+					"nama": "Miftah Jannah",
+					"jabatan": "Ketua Bidang",
+					"foto": "6_PSDM/6_PSDM_Miftah Jannah.jpg"
+				},
+				{
+					"nama": "Dias Lanjar Pamundi",
+					"jabatan": "Wakil Ketua Bidang",
+					"foto": "6_PSDM/6_PSDM_Dias Lanjar.jpg"
+				},
+				{
+					"nama": "Aditya Aulia Al-azizi",
+					"jabatan": "Staff",
+					"foto": "6_PSDM/6_PSDM_Aditya Aulia.jpg"
+				},
+				{
+					"nama": "Aldo Tri Pangestu",
+					"jabatan": "Staff",
+					"foto": "6_PSDM/6_PSDM_Aldo Tri.jpg"
+				},
+				{
+					"nama": "Fauzy Prasetyo Adhi",
+					"jabatan": "Staff",
+					"foto": "6_PSDM/6_PSDM_Fauzy.jpg"
+				},
+				{
+					"nama": "Giovanni Valentino Askaragita",
+					"jabatan": "Staff",
+					"foto": "6_PSDM/6_PSDM_Giovanni.jpg"
+				},
+				{
+					"nama": "Muhammad Farryl Azmi",
+					"jabatan": "Staff",
+					"foto": "6_PSDM/6_PSDM_Farryl Azmi.jpg"
+				},
+				{
+					"nama": "Rio Johanes Sumolang",
+					"jabatan": "Staff",
+					"foto": "6_PSDM/6_PSDM_Rio Johannes.jpg"
+				},
+				{
+					"nama": "Sahdewi Bunga Safira",
+					"jabatan": "Staff",
+					"foto": "6_PSDM/6_PSDM_Sahdewi Bunga.jpg"
+				}
+			]
+		},
+		{
+			"id": "mikat",
+			"name": "Minat dan Bakat",
+			"foto": "_PERBIDANG/_MIKAT.jpg",
+			"anggota": [
+				{
+					"nama": "Ryan Aditya Adhi",
+					"jabatan": "Ketua Bidang",
+					"foto": "8_MIKAT/8_Mikat_Ryan Aditya.jpg"
+				},
+				{
+					"nama": "Thoriq Lailhuda",
+					"jabatan": "Wakil Ketua Bidang",
+					"foto": "8_MIKAT/8_Mikat_Thoriq Lailhuda.jpg"
+				},
+				{
+					"nama": "Angga Judanto Mahendra",
+					"jabatan": "Staff",
+					"foto": "8_MIKAT/8_Mikat_Angga Judanto.jpg"
+				},
+				{
+					"nama": "Arfian Kurniawan Ramadhan",
+					"jabatan": "Staff",
+					"foto": "8_MIKAT/8_Mikat_Arkan Kurniawan.jpg"
+				},
+				{
+					"nama": "Arziki Pratama",
+					"jabatan": "Staff",
+					"foto": "8_MIKAT/8_Mikat_Arziki Pramana.jpg"
+				},
+				{
+					"nama": "Ghoza Nada Iqbal",
+					"jabatan": "Staff",
+					"foto": "8_MIKAT/8_Mikat_Ghoza Nada.jpg"
+				},
+				{
+					"nama": "Idzharul Huda",
+					"jabatan": "Staff",
+					"foto": "8_MIKAT/8_Mikat_Idzarul Huda.jpg"
+				},
+				{
+					"nama": "Kukuh Caezaocta Prayuda",
+					"jabatan": "Staff",
+					"foto": "8_MIKAT/8_Mikat_Kukuh Caezaocta.jpg"
+				},
+				{
+					"nama": "M. Fikri Ghazali Mukti",
+					"jabatan": "Staff",
+					"foto": "8_MIKAT/8_Mikat_Fikri Ghazali.jpg"
+				}
+			]
+		},
+		{
+			"id": "jangker",
+			"name": "Jaringan dan Kerjasama",
+			"foto": "_PERBIDANG/_JANGKER.jpg",
+			"anggota": [
+				{
+					"nama": "Tristan Sang Hidup Amanullah",
+					"jabatan": "Ketua Bidang",
+					"foto": "7_JANGKER/7_Jangker_Tristan Amanullah.jpg"
+				},
+				{
+					"nama": "Niko Putra Pamungkas",
+					"jabatan": "Wakil Ketua Bidang",
+					"foto": "7_JANGKER/7_Jangker_Niko Putra.jpg"
+				},
+				{
+					"nama": "Angga Exca Pradipta Syaifuddin",
+					"jabatan": "Staff",
+					"foto": "7_JANGKER/7_Jangker_Angga Exca.jpg"
+				},
+				{
+					"nama": "Antika Pratiwi Trio Difa",
+					"jabatan": "Staff",
+					"foto": ""
+				},
+				{
+					"nama": "Arkan Rizkiadi",
+					"jabatan": "Staff",
+					"foto": "7_JANGKER/7_Jangker_Arkan.jpg"
+				},
+				{
+					"nama": "Erikson Vri Anugrah Aritonang",
+					"jabatan": "Staff",
+					"foto": "7_JANGKER/7_Jangker_Erikson.jpg"
+				},
+				{
+					"nama": "Indah Paksi Larasati",
+					"jabatan": "Staff",
+					"foto": "7_JANGKER/7_Jangker_Indah Paksi.jpg"
+				},
+				{
+					"nama": "Lutfiana Arifah",
+					"jabatan": "Staff",
+					"foto": "7_JANGKER/7_Jangker_Luthfiana Arifah.jpg"
+				}
+			]
+		},
+		{
+			"id": "kl",
+			"name": "Kemandirian Lembaga",
+			"foto": "_PERBIDANG/_KL.jpg",
+			"anggota": [
+				{
+					"nama": "Mochammad Nibraasuddiin Aley Zulkarnaen",
+					"jabatan": "Ketua Bidang",
+					"foto": "9_KL/9_KL_Nibraasuddiin.jpg"
+				},
+				{
+					"nama": "Muhammad Defaroyan",
+					"jabatan": "Wakil Ketua Bidang",
+					"foto": ""
+				},
+				{
+					"nama": "Adinda Khaerani",
+					"jabatan": "Staff",
+					"foto": "9_KL/9_KL_Adinda Khaerani.jpg"
+				},
+				{
+					"nama": "Farras Arkan Isnaini Josi",
+					"jabatan": "Staff",
+					"foto": ""
+				},
+				{
+					"nama": "Fathiya Farahdilla Husna",
+					"jabatan": "Staff",
+					"foto": "9_KL/9_KL_Fathiya Farahdilla.jpg"
+				},
+				{
+					"nama": "Nuha Lina Atqia",
+					"jabatan": "Staff",
+					"foto": "9_KL/9_KL_Nuha Lina.jpg"
+				},
+				{
+					"nama": "Sania Bening Nareswara",
+					"jabatan": "Staff",
+					"foto": "9_KL/9_KL_Sania Bening.jpg"
+				},
+				{
+					"nama": "Shafna Fitria Nur Azizah",
+					"jabatan": "Staff",
+					"foto": "9_KL/9_KL_Shafna Fitria.jpg"
+				}
+			]
+		},
+		{
+			"id": "po",
+			"name": "Pengembangan Organisasi",
+			"foto": "_PERBIDANG/_PO.jpg",
+			"anggota": [
+				{
+					"nama": "Khoirunnisa",
+					"jabatan": "Ketua Bidang",
+					"foto": "3_PO/3_PO_Khoirunnisa.jpg"
+				},
+				{
+					"nama": "Arilya Syaharani",
+					"jabatan": "Wakil Ketua Bidang",
+					"foto": "3_PO/3_PO_Arilya Syaharani.jpg"
+				},
+				{
+					"nama": "Asa Muhammad Farhan",
+					"jabatan": "Staff",
+					"foto": "3_PO/3_PO_Asa M Farhan.jpg"
+				},
+				{
+					"nama": "Fathoni Satrio Utomo.jpg",
+					"jabatan": "Staff",
+					"foto": "3_PO/3_PO_Fathoni Satriyo Utomo.jpg"
+				},
+				{
+					"nama": "Fery Adwarsyah Pawamatra",
+					"jabatan": "Staff",
+					"foto": "3_PO/3_PO_Fery Ardwansyah.jpg"
+				},
+				{
+					"nama": "Fina Enno Rizki Oktavia Putri",
+					"jabatan": "Staff",
+					"foto": "3_PO/3_PO_Fina Enno.jpg"
+				},
+				{
+					"nama": "Kalya Azalia Deann",
+					"jabatan": "Staff",
+					"foto": "3_PO/3_PO_Kalya Azalya.jpg"
+				},
+				{
+					"nama": "Krisna Sanjaya",
+					"jabatan": "Staff",
+					"foto": "3_PO/3_PO_Krisna Sanjaya.jpg"
+				}
+			]
+		}
+	]
+}
