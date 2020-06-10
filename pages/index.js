@@ -1,7 +1,8 @@
 import Layout from "../components/Layout";
 import { Container, Bidang, VisiMisi } from "../components/Mixin";
 
-const index = () => {
+const index = (props) => {
+	const teams = props.teams;
 	return (
 		<Layout>
 			<Container id="sambutan">
@@ -70,7 +71,7 @@ const index = () => {
 			</Container>
 			<Container>
 				<div class="row flex-wrap justify-content-center align-items-center py-3">
-					<Bidang nama="KETUA DAN WAKIL" col="6" svg="ketua" />
+					{/* <Bidang nama="KETUA DAN WAKIL" col="6" svg="ketua" />
 					<div className="w-100" />
 					<Bidang nama="KEBENDAHARAAN" col="4" svg="kebendaharaan" />
 					<Bidang
@@ -92,7 +93,25 @@ const index = () => {
 						svg="jangker"
 					/>
 					<Bidang nama="KEMANDIRIAN DAN LEMBAGA" col="4" svg="kl" />
-					<Bidang nama="PENGEMBANGAN ORGANISASI" col="4" svg="po" />
+					<Bidang nama="PENGEMBANGAN ORGANISASI" col="4" svg="po" /> */}
+					{teams.map((team) =>
+						team.id == "ketua" ? (
+							<>
+								<Bidang
+									nama={team.name.toUpperCase()}
+									svg={team.id}
+									col="6"
+								/>
+								<div className="w-100" />
+							</>
+						) : (
+							<Bidang
+								nama={team.name.toUpperCase()}
+								svg={team.id}
+								col="4"
+							/>
+						)
+					)}
 				</div>
 			</Container>
 		</Layout>
