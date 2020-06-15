@@ -34,7 +34,7 @@ export function Bidang(props) {
 							{props.svg != "" && (
 								<div class="w-100 text-center my-3">
 									<img
-										class="w-100"
+										className="w-100"
 										src={`/svg/${props.svg}.svg`}
 										style={{ color: "orange" }}
 									/>

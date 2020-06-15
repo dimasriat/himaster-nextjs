@@ -12,15 +12,9 @@ export default function HomePage(props) {
 					style={{ minHeight: 480 }}
 				>
 					<div className="col-lg-7 col-10 text-center w-100 h-100">
-						<div className="display-4 font-weight-bold">
-							HIMASTER ALPHA 2020
-						</div>
+						<img src="/img/alpha-logo-jumbotron.png" className="img-fluid"/>
 						<div className="pt-3">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit, sed do eiusmod tempor incididunt ut labore et
-							dolore magna aliqua. Ut enim ad minim veniam, quis
-							nostrud exercitation ullamco laboris nisi ut aliquip
-							ex ea commodo consequat.
+							Himpunan Mahasiswa S1 Informatika UNS
 						</div>
 						<div className="pt-4">
 							<Link href="/profil">

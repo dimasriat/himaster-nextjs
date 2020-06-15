@@ -1,5 +1,6 @@
 #sambutan {
-	background-image: url("/img/himaster/_FULL/_FULL HIMASTER.jpg");
+	/* background-image: url("/img/himaster/_FULL/_FULL HIMASTER.jpg"); */
+	background-image: url('/img/darkercloud.jpg');
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
