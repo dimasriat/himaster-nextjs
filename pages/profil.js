@@ -1,35 +1,10 @@
 import Layout from "../components/Layout";
 import { Container, Bidang, VisiMisi } from "../components/Mixin";
-import Link from "next/link";
 
 export default function HomePage(props) {
 	const teams = props.teams;
 	return (
 		<Layout>
-			<Container id="sambutan">
-				<div
-					className="row justify-content-center align-items-center text-light"
-					style={{ minHeight: 480 }}
-				>
-					<div className="col-lg-7 col-10 text-center w-100 h-100">
-						<div className="display-4 font-weight-bold">
-							HIMASTER ALPHA 2020
-						</div>
-						<div className="pt-3">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit, sed do eiusmod tempor incididunt ut labore et
-							dolore magna aliqua. Ut enim ad minim veniam, quis
-							nostrud exercitation ullamco laboris nisi ut aliquip
-							ex ea commodo consequat.
-						</div>
-						<div className="pt-4">
-							<Link href="/profil">
-								<a className="btn btn-outline-light">Profil</a>
-							</Link>
-						</div>
-					</div>
-				</div>
-			</Container>
 			<Container>
 				<div className="row pb-3">
 					<VisiMisi title="VISI">
@@ -68,30 +43,6 @@ export default function HomePage(props) {
 							</li>
 						</ol>
 					</VisiMisi>
-				</div>
-			</Container>
-			<Container>
-				<div className="row flex-wrap justify-content-center align-items-center py-3">
-					{teams.map((team) =>
-						team.id == "ketua" ? (
-							<>
-								<Bidang
-									nama={team.name.toUpperCase()}
-									svg={team.id}
-									col="6"
-									key={team.id}
-								/>
-								<div className="w-100" />
-							</>
-						) : (
-							<Bidang
-								nama={team.name.toUpperCase()}
-								svg={team.id}
-								col="4"
-								key={team.id}
-							/>
-						)
-					)}
 				</div>
 			</Container>
 		</Layout>

@@ -1,6 +1,14 @@
 import Link from "next/link";
 
-const Navbar = () => {
+function Button(props) {
+	return (
+		<Link href={props.href}>
+			<a>{props.children}</a>
+		</Link>
+	);
+}
+
+export default function Navbar() {
 	return (
 		<div className="row justify-content-center border-bottom py-2">
 			<div className="col-lg-10 col-12">
@@ -12,7 +20,7 @@ const Navbar = () => {
 							</Link>
 						</h1>
 					</div>
-					<div className="col-lg-6 col-12 py-1">
+					{/* <div className="col-lg-6 col-12 py-1">
 						<form action="/" method="get">
 							<input
 								type="text"
@@ -20,14 +28,24 @@ const Navbar = () => {
 								placeholder="search"
 							/>
 						</form>
-					</div>
+					</div> */}
 					<div className="col-lg-auto col-12 py-1 align-self-center font-weight-bold text-center">
 						<ul className="list-inline my-0">
-							<li className="list-inline-item">Profil</li>
-							<li className="list-inline-item pl-3">Galeri</li>
-							<li className="list-inline-item pl-3">Event</li>
-							<li className="list-inline-item pl-3">Team</li>
-							<li className="list-inline-item pl-3">Contact</li>
+							<li className="list-inline-item">
+								<Button href="/profil">Profil</Button>
+							</li>
+							<li className="list-inline-item pl-3">
+								<Button href="/galeri">Galeri</Button>
+							</li>
+							<li className="list-inline-item pl-3">
+								<Button href="/event">Event</Button>
+							</li>
+							<li className="list-inline-item pl-3">
+								<Button href="/team">Team</Button>
+							</li>
+							<li className="list-inline-item pl-3">
+								<Button href="/contact">Contact</Button>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -40,6 +58,4 @@ const Navbar = () => {
 			`}</style>
 		</div>
 	);
-};
-
-export default Navbar;
+}

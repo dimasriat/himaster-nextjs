@@ -1,4 +1,4 @@
-export const Container = (props) => {
+export function Container(props) {
 	return (
 		<div
 			className="row justify-content-center border-bottom py-2"
@@ -7,9 +7,9 @@ export const Container = (props) => {
 			<div className="col-lg-10 col-12">{props.children}</div>
 		</div>
 	);
-};
+}
 
-export const VisiMisi = (props) => {
+export function VisiMisi(props) {
 	return (
 		<div className="col-lg col-12 mt-3">
 			<div className="card shadow w-100 h-100">
@@ -22,9 +22,9 @@ export const VisiMisi = (props) => {
 			</div>
 		</div>
 	);
-};
+}
 
-export const Bidang = (props) => {
+export function Bidang(props) {
 	return (
 		<div className={`col-lg-${props.col} col-12 mb-3`}>
 			<div className="card shadow w-100">
@@ -55,6 +55,4 @@ export const Bidang = (props) => {
 			</div>
 		</div>
 	);
-};
-
-// export default { Container, Bidang, VisiMisi };
+}
